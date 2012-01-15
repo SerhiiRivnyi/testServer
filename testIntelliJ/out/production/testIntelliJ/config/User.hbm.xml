@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.user.User" table="user">
+        <id name="id" column="id">
+
+        </id>
+        <!--<property name="gold" column="gold"/>-->
+        <property name="exp" column="exp"/>
+        <property name="name" column="name"/>
+        <property name="coins" column="coins"/>
+        <property name="avatar" column="avatar"/>
+    </class>
+</hibernate-mapping>
